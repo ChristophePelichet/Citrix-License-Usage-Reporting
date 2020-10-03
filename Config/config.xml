@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<configuration>
+	<appSettings>
+        <!-- Show the Readme.md in the github repository for all variables explanation (https://github.com/ChristophePelichet/Citrix-License-Usage-Reporting/blob/main/README.md) -->
+		<!-- Date Format -->
+        <add Key="DATEFOR"      Value="%m-%d-%Y"/>
+        <!-- Report Directory And Name -->
+		<add Key="REPDIR" 		Value="Reporting"/>
+        <add Key="REPNAME"      Value="Citrix_license_Usage_Reporting"/>
+        <!-- Client Information -->
+        <add Key="CLIENTNAME"   Value=""/>
+        <!-- Email Configuration -->
+        <add Key="EMAILSEND"    Value="1"/>
+        <add Key="EMAILTO"      Value=""/>
+        <add Key="EMAILFROM"    Value=""/>
+        <add Key="EMAILSUBJ"    Value="Citrix Licensig Usage Report"/>
+        <add Key="EMAILBODY"    Value="Citrix Licensing Reporting For - "/>
+        <add Key="EMAILSERVER"  Value=""/>
+        <add Key="EMAILPORT"    Value="25"/>
+        <!-- License Use Threshold-->
+        <add Key="LICTREMIOK"     Value="0"/>
+        <add Key="LICTREMAOK"     Value="69"/>
+        <add Key="LICTREMIWA"     Value="70"/>
+        <add Key="LICTREMAWA"     Value="89"/>
+        <add Key="LICTREMIKO"     Value="90"/>
+        <add Key="LICTREMAKO"     Value="100"/>
+    </appSettings>
+</configuration>
