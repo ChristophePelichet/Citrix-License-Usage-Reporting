@@ -9,7 +9,7 @@ Script allowing you to retrieve information about the status of your Citrix lice
 
 ## Configuration 
 
-he entire configuration is done in the configuration file 
+He entire configuration is done in the configuration file 
 "MyScriptPath\Config\config.xml"
 
 
