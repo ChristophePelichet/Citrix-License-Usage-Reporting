@@ -17,6 +17,9 @@ Script allowing you to retrieve information about the status of your Citrix lice
 - Local storage of reports and possibility to send them by email
 - Configurable Usage Percentage Range
 
+.INPUTS
+N/A
+
 .OUTPUTS
 Report in html format
 
@@ -28,7 +31,9 @@ the entire configuration is done in the configuration file
 Show the Readme.md in the github repository for all variables explanation (https://github.com/ChristophePelichet/Citrix-License-Usage-Reporting/blob/main/README.md)
 
 .LINK
+N/A
 
+.EXAMPLE
 N/A
 
 .NOTES
