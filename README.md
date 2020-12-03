@@ -7,6 +7,8 @@ Script allowing you to retrieve information about the status of your Citrix lice
 - Local storage of reports and possibility to send them by email
 - Configurable Usage Percentage Rang
 
+![report](https://user-images.githubusercontent.com/47081682/100992995-1f62e800-3555-11eb-9992-1ec42d9713d9.png)
+
 ## Configuration 
 
 He entire configuration is done in the configuration file 
