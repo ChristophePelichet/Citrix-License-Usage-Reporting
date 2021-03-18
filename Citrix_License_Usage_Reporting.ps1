@@ -194,7 +194,7 @@ $htmlReport | Out-File -FilePath $REPFULL
 
 ## Reportin Email
 if ($EMAILSEND -eq "1") {
-    Send-MailMessage -To $EMAILTO -From $EMAILFROM -Subject "$EMAILSUBJ - $DATE" -Body "$EMAILBODY $CLIENTNAME" -Attachments $REPFULL  -SmtpServer $EMAILSERVER -Port $EMAILPORT
+    Send-MailMessage -From $EMAILFROM To $EMAILTO.split(';') -Subject "$EMAILSUBJ - $DATE" -Body "$EMAILBODY $CLIENTNAME" -Attachments $REPFULL  -SmtpServer $EMAILSERVER -Port $EMAILPORT
 }
 
 #######################################################
