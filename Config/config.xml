@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <configuration>
 	<appSettings>
-        <!-- Show the Readme.md in the github repository for all variables explanation (https://github.com/ChristophePelichet/Citrix-License-Usage-Reporting/blob/main/README.md) -->
+        <!-- Show the Readme.md in the github repository for all variables explanation (https://github.com/ChristophePelichet/Citrix-License-Usage-Reporting/README.md) -->
 		<!-- Date Format -->
         <add Key="DATEFOR"      Value="%m-%d-%Y"/>
         <!-- Report Directory And Name -->
